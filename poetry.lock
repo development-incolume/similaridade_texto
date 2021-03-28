@@ -1,0 +1,34 @@
+[[package]]
+category = "main"
+description = "Fuzzy string matching in python"
+name = "fuzzywuzzy"
+optional = false
+python-versions = "*"
+version = "0.18.0"
+
+[package.extras]
+speedup = ["python-levenshtein (>=0.12)"]
+
+[[package]]
+category = "main"
+description = "Python extension for computing string edit distances and similarities."
+name = "python-levenshtein"
+optional = false
+python-versions = "*"
+version = "0.12.2"
+
+[package.dependencies]
+setuptools = "*"
+
+[metadata]
+content-hash = "814ff030ce8e62ede9431542b8bba00dfa084cd26ca36ace43a1188dd9286977"
+python-versions = "^3.8"
+
+[metadata.files]
+fuzzywuzzy = [
+    {file = "fuzzywuzzy-0.18.0-py2.py3-none-any.whl", hash = "sha256:928244b28db720d1e0ee7587acf660ea49d7e4c632569cad4f1cd7e68a5f0993"},
+    {file = "fuzzywuzzy-0.18.0.tar.gz", hash = "sha256:45016e92264780e58972dca1b3d939ac864b78437422beecebb3095f8efd00e8"},
+]
+python-levenshtein = [
+    {file = "python-Levenshtein-0.12.2.tar.gz", hash = "sha256:dc2395fbd148a1ab31090dd113c366695934b9e85fe5a4b2a032745efd0346f6"},
+]
